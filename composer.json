@@ -1,6 +1,6 @@
 {
     "name":  "xiaolong/yunpian-sms",
-    "description": "云片短信发送,基于Laravel5.1插件。",
+    "description": "云片短信发送,基于Laravel5.3插件。",
     "type": "package",
     "keywords": ["laravel", "yunpian", "sms"],
     "homepage": "https://github.com/G-Bruin/yunpiansms.git",
