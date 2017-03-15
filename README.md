@@ -1,12 +1,13 @@
 # yunpian-sms
-> 本版本可以用于使用[云片网络短信服务商](http://www.yunpian.com/)、基于laravel5.3.*以上版本的系统集成短信发送功能。
+> 基于laravel5.1.*以上版本的系统集成短信发送功能。
 
 ## 安装
 
 1. 安装包文件
 
+在composer.json 加入
   ```shell
-  composer require xiaolong/yunpian-sms
+  "xiaolong/yunpian-sms":"dev-master"
   ```
 
 ## 配置
@@ -44,7 +45,8 @@
 
   ```php
   /*
-  *可以是个string字符串或array字符串群发
+  * 手机号
+  * 短信模板
   */
   \YunpianSMS::sendSMS('183xxxx1235',"【xxx】短信内容");
   ```
