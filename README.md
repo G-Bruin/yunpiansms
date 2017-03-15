@@ -1,13 +1,12 @@
 # yunpian-sms
-> 基于laravel5.1.*以上版本的系统集成短信发送功能。
+> 基于laravel5.3.*以上版本的系统集成短信发送功能。
 
 ## 安装
 
 1. 安装包文件
 
-在composer.json 加入
   ```shell
-  "xiaolong/yunpian-sms":"dev-master"
+  composer require xiaolong/yunpian-sms
   ```
 
 ## 配置
